@@ -1,0 +1,114 @@
+/* Custom FONT */
+    @font-face {
+        font-family: 'Samsung One 400';
+        src: url('../WEBSITE_EXHIBITION/font/SamsungOne-400.ttf') format('woff2'),
+            url('../WEBSITE_EXHIBITION/font/SamsungOne-400.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Samsung One 700';
+        src: 
+            url('../WEBSITE_EXHIBITION/font/SamsungOne-700.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Samsung Sharp Sans Bold';
+        src: 
+            url('../WEBSITE_EXHIBITION/font/SamsungSharpSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SamsungSharpSans-Bold_SMCPS';
+        src: 
+            url('../WEBSITE_EXHIBITION/font/iCiel-SamsungSharpSans-Bold_SMCPS.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+/* BODY */
+body.menubar {
+    width: 100%;
+    margin: 0 ;
+
+}
+
+/* HEADER */
+header.menuex {
+    background-color: #ebc3c3;
+    height: auto;
+    line-height: 50px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    font-family: 'SamsungSharpSans-Bold_SMCPS',Arial;
+
+}
+
+#article{
+    font-family: 'Samsung One 700',Arial, sans-serif;
+}
+
+#p1, #p2, #p3, #p4 {
+    font-family: 'Samsung One 400', Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: block;
+
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 200px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    float: none;
+    padding-left: 10px; 
+    position: relative;
+    width: 100%; 
+}
+
+nav li ul li a {
+    color: #000;
+    font-size: 14px;
+    display: block;
+    
+}
+
+nav li ul li a:hover {
+    color: #ff0000;
+}
